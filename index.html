@@ -1,0 +1,111 @@
+<!--
+JavascriptCalculator
+- - - - - - - - - -
+http://codepen.io/DizNicolasAmor/pen/mRadjZ
+Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
+This project is a challenge posed by FreeCodeCamp.
+-->
+
+<!doctype HTML>
+<html>
+  <head>
+    <title>JavascriptCalculator</title>
+
+    <!-- bootstrap -->
+     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <!--my css file-->
+    <link rel="stylesheet" href="style.css">    
+  </head>
+
+  <body>
+    <div class="container">
+      <h2 id="title">Javascript Calculator</h2>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <input class="buttons" type="button" id="clear" value="C" onClick="reset()">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" id="clear" value="CE" onClick="reset()">
+        </div>
+        <div class="col-xs-6">
+          <input name="display" type="text" disabled="disabled" id="display">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="7" id="7" onClick="screenWrite(7)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="8" onClick="screenWrite(8)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="9" onClick="screenWrite(9)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="+" onClick="add()">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="4" onClick="screenWrite(4)">
+        </div>  
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="5" onClick="screenWrite(5)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="6" onClick="screenWrite(6)">
+        </div>          
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="-" onClick="sub()">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="1" onClick="screenWrite(1)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="2" onClick="screenWrite(2)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="3" onClick="screenWrite(3)">
+        </div>
+        <div class="col-xs-3">     
+          <input class="buttons" type="button" value="x" onClick="mul()">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="0" onClick="screenWrite(0)">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="." onClick="decimal()">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="=" onClick="result()">
+        </div>
+        <div class="col-xs-3">
+          <input class="buttons" type="button" value="/" onClick="div()">
+        </div>
+      </div>
+      
+    </div>  <!--  container -->
+    
+    <footer class="text-center">Feb 2017 - Diz, Nicol&aacute;s Amor</footer>
+
+
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- my js file-->
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+      
+    <script>document.getElementById("display").value = 0;</script>
+
+  </body>
+</html>
