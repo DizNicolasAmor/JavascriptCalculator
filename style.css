@@ -1,0 +1,55 @@
+/*
+JavascriptCalculator
+- - - - - - - - - -
+http://codepen.io/DizNicolasAmor/pen/mRadjZ
+Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
+This project is a challenge posed by FreeCodeCamp.
+*/
+
+
+h1,h2,h3,h4 {
+  font-family: Arial;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 2px #F0F006;
+}
+
+/* classes */
+
+.container{
+  border-radius: 5%;
+  max-width: 27em;
+  min-width: 27em;  
+  padding: 1.5em;
+  margin: 5% auto;
+  background: rgba(225, 225, 225, .75);
+  box-shadow: .5em .5em .5em .5em rgba(0, 0, 0, .4);
+}
+
+.buttons{
+  font-family: 'Arial';
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  width: 70px;
+  height: 40px;
+  border-radius: 10%;
+  margin: 5% auto;
+}
+
+#display{
+  box-shadow: inset 5px 0 10px -5px #635e61, inset -5px 0 10px -5px #635e61, inset 0px -5px 10px -2px #635e61, inset 0 0 1px 2px #635e61, inset 0 5px 5px 0 #494547;
+  font-family: 'Arial';
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: right;
+  width: 170px;
+  height: 45px;
+  border-radius: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+#clear{
+  background-color: FireBrick ;
+}
