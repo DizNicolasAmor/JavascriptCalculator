@@ -72,12 +72,28 @@ function process() {     //hacer las operaciones que procedan
   } else {
     if(addBoolean) {
       screenValue = screenValue + parseFloat(screen);
+      //only print eight char in screen. 
+      screen = screenValue.toString().substring(0,9);
+      screenValue = parseFloat(screen); 
+
     } else if (subBoolean) {
       screenValue = screenValue - parseFloat(screen);
+      //only print eight char in screen. 
+      screen = screenValue.toString().substring(0,9);
+      screenValue = parseFloat(screen); 
+
     } else if (mulBoolean) {
       screenValue = screenValue * parseFloat(screen);
+      //only print eight char in screen. 
+      screen = screenValue.toString().substring(0,9);
+      screenValue = parseFloat(screen); 
+      
     } else if (divBoolean) {
       screenValue = screenValue / parseFloat(screen);
+      //only print eight char in screen. 
+      screen = screenValue.toString().substring(0,9);
+      screenValue = parseFloat(screen); 
+
     }
     resetOperators();
   }
