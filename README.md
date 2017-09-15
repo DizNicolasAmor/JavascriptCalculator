@@ -1,9 +1,14 @@
-# JavascriptCalculator
+## JavascriptCalculator ## 
 
+Nico Diz
 
+https://github.com/DizNicolasAmor
 
-#JavascriptCalculator
-- - - - - - - - - -
-http://codepen.io/DizNicolasAmor/pen/mRadjZ
-#Author:  Diz, Nicolás Amor (https://github.com/DizNicolasAmor)
-#This project is a challenge posed by FreeCodeCamp.
+You can see this project here: 
+
+- https://diznicolasamor.github.io/JavascriptCalculator/
+- http://codepen.io/DizNicolasAmor/pen/mRadjZ
+
+This project is a challenge posed by FreeCodeCamp. Be free to use it and change it. 
+
+![JSCalculatorReadme](/images/JSCalculatorReadme.png?raw=true) 
